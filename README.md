@@ -1,4 +1,8 @@
 # FinalProjectCis280
+11/20/22
+Added button navigation to first few pages, with back buttons
+Added HowToPlay View
+
 11/6/22
 Added dice roll feature will determine player outcomes
 DiceRollView.swift
