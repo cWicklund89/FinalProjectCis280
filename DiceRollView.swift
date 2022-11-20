@@ -31,7 +31,7 @@ struct DiceRollView: View {
                     .aspectRatio(geometry.size, contentMode: .fill)
                 
                 VStack {
-                    //image
+         
                     Image("dice\(number)")
                         .onTapGesture {
                   
@@ -43,13 +43,13 @@ struct DiceRollView: View {
                             numberTwo = Int.random(in: 1...6)
                         }
                     
-                    //the button
+             
                     Button(action: {
                       
                         number = Int.random(in: 1...6)
                         numberTwo = Int.random(in: 1...6)
                     }) {
-                        //button look
+                   
                         Text("Roll Dice")
                             .foregroundColor(.white)
                             .fontWeight(.bold)

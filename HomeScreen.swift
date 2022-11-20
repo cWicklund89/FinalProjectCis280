@@ -37,8 +37,8 @@ struct HomeScreen:View
                         .font(.largeTitle .weight(.semibold))
                         .frame(maxHeight: .infinity)
                         }
-                    NavigationLink(destination: CreateUserView()) {
-                                Text("Start Game")
+                    NavigationLink(destination: HowToPlay()) {
+                                Text("Begin")
                                 .foregroundColor(.white)
                                 .font(.title)
                         }
